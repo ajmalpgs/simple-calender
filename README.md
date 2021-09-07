@@ -1,6 +1,12 @@
-# simple-calender
+# Simple Calendar
+![preview](assets/simple-calendar.gif)
+
+A simple and easy plugin to create a calendar and add events to it.
+
+## Usage
 
 
+```javascript
 <div id="container" class="calendar-container"></div>
 
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"
@@ -60,3 +66,4 @@
     $calendar = container.data('plugin_simpleCalendar')
   });
 </script>
+```
